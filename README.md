@@ -1,4 +1,4 @@
 imap-checker
 ============
 
-Python script to check new messages in IMAP directory
+Python script to check new messages in IMAP directory.
