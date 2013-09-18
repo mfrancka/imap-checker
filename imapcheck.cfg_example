@@ -1,0 +1,20 @@
+[account]
+# Usernam (login) to account
+# username=aaa@bbb.ggg
+username=
+
+# password=asdfasdf
+password=
+
+# address of IMAP server
+#server=adf.asdf.com
+server=
+
+# Check options
+[checks]
+# Folder to check for new messages
+# folders=folder1,folder2,...
+folders=test,test1
+
+# Check every x seconds
+check-interval=10
