@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+## Version 0.5
 
 import getpass, imaplib
 import time
@@ -61,9 +62,6 @@ def main():
                 print 'all read'
 
         time.sleep(check_interval)
-        # TODO: use it to check subject:
-        #    typ, data = M.uid('fetch',num, '(RFC822)')
-        #    print 'Message %s\n%s\n' % (num, data[0][1])
 
     M.close()
     M.logout()
